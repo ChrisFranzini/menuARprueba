@@ -1,0 +1,289 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("assets/marco 2.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+}
+.heading>h1{
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 5px;
+    margin-bottom: 1px;
+    
+    
+}
+.heading>h2{
+    color: white;
+    letter-spacing: 5px;
+    
+   }
+
+   .heading{
+    max-height: 200px;
+    position: relative;
+    margin-bottom: 1px;
+    padding: 2px 0;
+    grid-column: 1/-1;
+    text-align: center;
+    animation-name: texto;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;  
+    border-bottom: white solid;
+   }
+
+   @keyframes texto {
+    0%   { transform: scale(0.1)}
+    100% { transform: scale(1.0)}
+  }
+
+
+
+   .menu{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-template-rows: max-content;
+    gap: 2px;
+
+   }
+
+ 
+
+   .botones>div{
+
+    
+    color: white;
+    align-content: center;
+       
+    display: flex;
+    align-items: center;
+    
+        
+
+   }
+
+   .botones{
+       
+       position: relative;
+       height: 100%;
+       background-size: contain;
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    animation-name: ejemplo;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0%;  
+  
+   }
+   
+   @keyframes ejemplo {
+    0%   { opacity: 0% ; transform: scale(0.2)}
+    100% { opacity: 100%; transform: scale(1.0)}
+  }
+
+
+
+   .botones>div>a>img{
+
+    width: 77%;
+    padding: 0;
+    margin-left: 10px; 
+    
+
+   }
+
+   
+.icono{
+    
+     width: 15%;
+    margin-left: 10%;
+    
+    
+}
+
+
+
+@keyframes car {
+    0%   { opacity: 0% ; transform: scale(0.1)}
+    100% { opacity: 100%; transform: scale(1.0)}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media (orientation: portrait) {
+
+    body {
+      flex-direction: column;
+    }
+    #back{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        z-index: 0;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: none;
+        
+        }
+        
+        #menulogo{
+        
+            position: absolute;
+            top: 5%;
+            left: 22%;
+            width: 60%;
+            height: 8vh;
+            z-index: 1;
+        }
+        
+        .item-comida{
+            display: grid;
+            position: absolute;
+            grid-template-rows: auto;
+        }
+
+        #car{
+            position: absolute;
+            width: 50%;
+            height:7vh;
+            top: 20%;
+            left:35%;
+
+        }
+        #piz{
+            position: absolute;
+            width: 50%;
+            height:7vh;
+            top: 30%;
+            left:35%;
+
+        }
+
+        #pes{
+            position: absolute;
+            width: 50%;
+            height:7vh;
+            top: 40%;
+            left:35%;
+
+        }
+        #ens{
+            position: absolute;
+            width: 50%;
+            height:7vh;
+            top: 50%;
+            left:35%;
+
+        }
+        #pos{
+            position: absolute;
+            width: 50%;
+            height:7vh;
+            top: 60%;
+            left:35%;
+
+        }
+
+        #beb{
+            position: absolute;
+            width: 50%;
+            height:7vh;
+            top: 70%;
+            left:35%;
+
+        }
+
+        #car1{
+            position: absolute;
+            width: 15%;
+            height:5vh;
+            top: 20%;
+            left:16%;
+
+        }
+        #piz1{
+            position: absolute;
+            width: 15%;
+            height:5vh;
+            top: 30%;
+            left:16%;
+
+        }
+
+        #pes1{
+            position: absolute;
+            width: 15%;
+            height:5vh;
+            top: 40%;
+            left:16%;
+
+        }
+        #ens1{
+            position: absolute;
+            width: 15%;
+            height:5vh;
+            top: 50%;
+            left:16%;
+
+        }
+        #pos1{
+            position: absolute;
+            width: 15%;
+            height:5vh;
+            top: 61%;
+            left:16%;
+
+        }
+
+        #beb1{
+            position: absolute;
+            width: 15%;
+            height:5vh;
+            top: 71%;
+            left:16%;
+
+        }
+
+  }
+
+  @media (orientation: landscape) {
+    body {
+      flex-direction: row;
+    }
+  }
+
+
+
+
+
+
+#atras{
+
+    width: 10%;
+    height: 7vh;
+}*/
+
